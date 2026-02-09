@@ -94,3 +94,37 @@
   border-left: 4px solid #1e3a8a;
   font-weight: 600;
 }
+
+/* --- HEADER --- */
+.header {
+  height: 70px;
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.header-titulo {
+  font-size: 18px;
+  color: #111827;
+  font-weight: 700;
+  margin-left: 225px;
+}
+
+.header-usuario {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #4b5563;
+  font-size: 14px;
+}
+
+.btn-logout {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #9ca3af;
+}
