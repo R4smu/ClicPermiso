@@ -20,3 +20,26 @@
   border-color: #d1d5db;
 }
 .btn-secundario:hover { background-color: #e5e7eb; }
+
+
+/* --- INPUT --- */
+.contenedor-input {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.input-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #374151;
+}
+
+.input-control {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
