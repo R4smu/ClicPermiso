@@ -1,14 +1,11 @@
 import './App.css'
-import { ComponenteButton } from './components/ComponenteButton'
+import Boton from './components/Boton.tsx'
 
 function App() {
   return (
     <>
-      <ComponenteButton texto="Sol. día diurno"/>
-      <ComponenteButton texto="Sol. día vespertino"/>
-      <ComponenteButton texto="Mi Perfil"/>
-      <ComponenteButton texto="Mis días solicitados"/>
-      <ComponenteButton texto="Mis ausencias"/>
+      <Boton texto="otra" estilo="primario" />
+      <Boton texto="prueba" estilo="secundario" />
     </>
   )
 }

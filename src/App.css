@@ -1,20 +1,22 @@
-.contenedor-boton {
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    min-width: 150px;
-    margin-bottom: 10px;
-    align-items: flex-start;
+/* --- BOTÓN --- */
+.btn {
+  padding: 10px 24px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
 }
 
-.boton-seccion {
-    color: darkblue;
-    background-color: white;
-    border: 0;
-    border-radius: 4px;
-    font-weight: bold;
+.btn-primario {
+  background-color: #1e3a8a;
+  color: white;
 }
+.btn-primario:hover { background-color: #1e40af; }
 
-.boton-seccion:hover {
-    background-color: lightblue;
+.btn-secundario {
+  background-color: #f3f4f6;
+  color: #374151;
+  border-color: #d1d5db;
 }
+.btn-secundario:hover { background-color: #e5e7eb; }
