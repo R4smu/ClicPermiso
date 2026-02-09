@@ -1,4 +1,4 @@
-import '../App.css';
+import '../assets/estilos/App.css';
 
 const Boton = ({ texto, estilo, className=""}: any) => {
   

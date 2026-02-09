@@ -1,5 +1,5 @@
-import '../App.css';
-import logo from '../assets/albarregas.jpg'; 
+import '../assets/estilos/App.css';
+import logo from '../assets/img/albarregas.jpg'; 
 
 const BarraLateral = () => {
   return (
